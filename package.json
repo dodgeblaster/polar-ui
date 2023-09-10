@@ -1,0 +1,21 @@
+{
+    "name": "polar-ui",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "esbuild index.mjs --bundle --outfile=polar-components.js --minify --target=chrome58,firefox57,safari11,edge16 --format=esm"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@preact/signals": "^1.2.1",
+        "htm": "^3.1.1",
+        "preact": "^10.17.1"
+    },
+    "devDependencies": {
+        "esbuild": "^0.19.2"
+    }
+}
